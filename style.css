@@ -29,7 +29,7 @@ header {
 }
 
 /* Fejléc tartalom konténer */
-.container {
+.container header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,6 +60,7 @@ header h1 {
 /* Navigációs menü */
 header nav ul {
     list-style-type: none;
+    margin-left: 419px;
 }
 
 header nav ul li {
@@ -206,4 +207,13 @@ footer {
 
 footer p {
     font-size: 1em;
+}
+
+/* Margin beállítások a h1 és h2 címek számára */
+header h1 {
+    margin-bottom: 20px; /* Különbség a h1 és a navigáció között */
+}
+
+section h2 {
+    margin-top: 40px; /* H2 szövegek távolsága az előző szakaszoktól */
 }
