@@ -1,0 +1,183 @@
+/* Alap stílusok */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body alapbeállítások */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Konténer, hogy a tartalom középre kerüljön */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Fejléc */
+header {
+    background-color: #00247d; /* Navy kék a Union Jack-ből */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    color: #c8102e; /* Piros szín a Union Jack-ből */
+}
+
+/* Hero szekció */
+.hero {
+    background-color: #cf142b; /* Erős piros */
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #00247d; /* Navy kék */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #c8102e; /* Piros szín a Union Jack-ből */
+}
+
+/* Márkák szekció */
+.brands {
+    padding: 50px 0;
+    background-color: #ffffff; /* Fehér háttér */
+}
+
+.brands h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.brand-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.brand-item {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.brand-item img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.brand-item h3 {
+    font-size: 1.8em;
+    color: #00247d; /* Navy kék */
+}
+
+.brand-item p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Rólunk szekció */
+.about {
+    padding: 50px 0;
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Kapcsolat szekció */
+.contact {
+    padding: 50px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    color: #00247d; /* Navy kék */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: #c8102e; /* Piros szín a Union Jack-ből */
+}
+
+/* Footer */
+footer {
+    background-color: #00247d; /* Navy kék */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1em;
+}
