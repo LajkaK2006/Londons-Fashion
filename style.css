@@ -19,19 +19,45 @@ body {
     margin: 0 auto;
 }
 
-/* Fejléc */
 header {
-    background-color: #00247d; /* Navy kék a Union Jack-ből */
+    background-color: #00247d; /* Navy kék */
     color: white;
     padding: 20px 0;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+/* Fejléc tartalom konténer */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Logó elhelyezése */
+header .logo img {
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+/* Logó hover effekt */
+header .logo img:hover {
+    transform: scale(1.1); /* A logó kicsit megnő hovereléskor */
+}
+
+/* Fejléc cím középre igazítva */
 header h1 {
+    flex-grow: 1;
+    text-align: center;
     font-size: 2.5em;
     letter-spacing: 2px;
+    margin: 0;
 }
 
+/* Navigációs menü */
 header nav ul {
     list-style-type: none;
 }
